@@ -1,0 +1,31 @@
+# Ignore frontend dependencies
+cbfrontend/node_modules/
+cbfrontend/dist/
+cbfrontend/package-lock.json
+cbfrontend/package.json
+cbfrontend/public/
+cbfrontend/eslint.config.js
+cbfrontend/index.html
+cbfrontend/README.md
+cbfrontend/vite.config.js
+cbfrontend/src/assets
+cbfrontend/src/index.css
+cbfrontend/src/main.jsx
+
+# Build/Cache Artifacts:
+cbbackend/build/
+cbbackend/__pycache__/
+cbbackend/*.py[oc]
+cbbackend/dist/
+cbbackend/wheels/
+cbbackend/*.egg-info
+
+# Ignore backend dependencies and environment variables
+cbbackend/node_modules/
+cbbackend/.env
+cbbackend/.venv
+cbbackend/.python-version
+cbbackend/README.md
+cbbackend/pyproject.toml
+cbbackend/README.md
+cbbackend/uv.lock
